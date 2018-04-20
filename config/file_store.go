@@ -42,10 +42,10 @@ func NewFileStore(filename string) (*FileStore, error) {
 		}
 	}
 
-	err = config.write()
-	if err != nil {
-		return nil, err
-	}
+	// err = config.write()
+	// if err != nil {
+	// 	return nil, err
+	// }
 
 	return config, nil
 }
