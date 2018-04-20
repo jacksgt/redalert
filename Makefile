@@ -11,7 +11,7 @@ install-deps:
 build: embed-static
 	go build ${LDFLAGS} -o ${BINARY}
 
-embed-static: build-ui
+embed-static:
 	go get github.com/GeertJohan/go.rice
 	go get github.com/GeertJohan/go.rice/rice
 	cd web && rice embed-go && cd ..
