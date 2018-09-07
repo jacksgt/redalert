@@ -35,7 +35,7 @@
         </div>
 
         <div class="metric-name">
-          <span class="transition">{{ check.status }} <span v-if="check.stateTransitionedAt">for {{ check.stateTransitionedAt }}</span></span></br>
+          <span class="transition">{{ check.status }} <span v-if="check.stateTransitionedAt">for {{ check.stateTransitionedAt }}</span></span>
           <span v-if="check.selectedMetric">{{ check.selectedMetric }} ({{ check.selectedMetricValue }})</span>
         </div>
 

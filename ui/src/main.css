@@ -98,13 +98,11 @@ body {
 }
 
 .server .check-type {
-  font-size: 0.25em;
   padding-left: 5px;
   padding-right: 15px;
 }
 
 .server .transition {
-  font-size: 0.25em;
   padding-left: 15px;
   padding-right: 5px;
 }
@@ -117,7 +115,7 @@ body {
   padding-right: 5px;
 }
 .server .metric-name{
-  font-size: 0.45em;
+  font-size: 0.9em;
   text-align: right;
   margin-top: 5px;
   margin-right: 5px;
